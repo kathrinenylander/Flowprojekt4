@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  
+    
+    
+<div class="jumbotron text-center"
+     style="
+    background-color: rgb(253, 195, 194);
+    color: rgb(255, 255, 255);">
+  <h1>Hjaltesro</h1>
+  <p>Madblog fuld af opskrifter og tips til madlavning</p> 
+</div>
+  
+    <div class="row">
+    <div class="col-md-6" style="margin-left: 150px;">
+        <iframe width="850px" height="550px" src="https://www.youtube.com/embed/YbgrwIgx3Ik" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    
+    <div style="margin-left: 150px;">
+    <div width="250px" class="col-md-6">
+          <iframe src="http://kathrineiris.dk/webbanneropgave/index.html" height="320" width="320"></iframe>
+    </div>
+    
+    <div col-sm-6 style="padding-left: 50px;">
+    <form action="action_page.php">
+  <div style="margin-top: 25px;">
+    <h2 style="padding-left: 15px;">Tilmeld dig mit <br>nyhedsbrev!</h2>
+  </div>
+
+  <div class="container">
+    <input style="margin-bottom: 10px; border-style: none; border-bottom-style: solid; border-width: thin;" type="text" placeholder="Navn" name="name" required>
+      <br>
+    <input style="margin-bottom: 10px; border-style: none; border-bottom-style: solid; border-width: thin;" type="text" placeholder="Email" name="mail" required>
+  </div>
+
+  <div class="container">
+    <input type="submit" value="Tilmeld">
+  </div>
+</form>
+</div>
+        
+    </div>
+    </div>
+    
+<div style="margin-left: 163px;">
+  <div class="row">
+      <div class="col-sm-4">
+      <h3>Ingredienser (8 portioner)</h3>
+        <ul  id="demo1">
+            <li>125g hvedemel</li>
+            <li>3 spsk rørsukker</li>
+            <li>0,5 tsk vaniljepulver</li>
+            <li>0,5 tsk kardemomme</li>
+            <li>1 nip salt</li>
+            <li>3 æg</li>
+            <li>3 dl mælk</li>
+            <li>4 spsk hvidøl (kan undlades)</li>
+            <li>Smør til stegning</li>
+        </ul>
+          
+          <button type="button" onclick="document.getElementById('demo1').style.display='none'">Fold sammen</button>
+          
+    </div>  
+    <div class="col-sm-4">
+        <h3>Fremgangsmåde</h3>
+        <p id="demo2">Pisk alle ingredienserne sammen i en skål med en håndmikser og lad derefter dejen hvile i minimum 20 minutter på køl.
+        <br>
+        <br>
+        Smelt lidt smør på en pande, og når den er godt varm, steges pandekagerne på begge sider,  til de er flotte lysebrune.</p>
+      
+        <button type="button" onclick="document.getElementById('demo2').style.display='none'">Fold sammen</button>
+      
+      </div>
+    </div>
+    
+</div>
+
+    <footer style="background-color: whitesmoke; padding-top: 10px; padding-bottom: 10px; margin-top: 75px;">
+    <p style="color: darkgrey;">Lavet af Sofie, Yousef og Kathrine</p>
+    </footer>
+
+</body>
+</html>
